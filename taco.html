@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="description" content="nuclear taco sensor helmet gameshow">
+  <meta name="keywords" content="taco, nuclear taco, sensor, arduino, beer helmet, openframeworks, facetracker, blender, japan, gameshow, coding, competition, codebits">
+  <meta content="follow, index, all" name="robots">
+  <meta content="en" name="language">
+  <title>Nuclear Taco Sensor Helmet Gameshow</title>
+  	<link rel="apple-touch-icon" href="favicon.png" />	
+	<link rel="apple-touch-icon-precomposed" href="favicon.png" />	
+	<link rel="apple-touch-startup-image" href="favicon.png" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <style>
+  body {
+		background: #ddd;
+		padding: 1em;
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+
+	h1 {
+		position: relative;
+		font-size: 40pt;
+		//margin-top: 0;
+		font-family: 'Myriad-Pro', 'Myriad', helvetica, arial, sans-serif;
+		text-shadow: 2px 3px 3px #292929;
+		-webkit-text-stroke: 1px white;
+
+	}
+	</style>
+	<script type="text/javascript">
+/* <![CDATA[ */
+    (function() {
+        var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
+        t.parentNode.insertBefore(s, t);
+    })();
+/* ]]> */
+</script>
+</head>
+<body>
+
+<h1>Nuclear Taco Sensor Helmet Gameshow</h1>
+
+<h3>by <a href="http://twitter.com/ledsandchips">Mauricio Martins</a>, <a href="http://twitter.com/tiagororke">Tiago Rorke</a>, <a href="http://twitter.com/psenough">Filipe Cruz</a>, <a href="http://twitter.com/xernobyl">Tiago Farto</a> and Ferdinand Meier</h3>
+
+<p>Nuclear Taco Sensor Helmet Gameshow is the name of our project entry for the 48h hack project of <a href="http://codebits.eu">Sapo Codebits 2011</a>. The aim of the competition was to develop a project during 48 hours and present it in 90 seconds to a live audience. Out of over 80 proposed projects, 65 were presented live.<br />We won the 1st place of the public voting.</p>
+
+<h3>Abstract</h3>
+
+<p>The 48h project consisted of building a helmet device with humidity, temperature and fluid intake sensors, used to record and measure the reaction of nuclear taco victims of Codebits 2011 Nuclear Taco Challenge. The sensors and servos are connected by Arduino. 6 timelapse videos were recorded documenting the user experience. The 1:30 project presentation was in the style of a Japanese gameshow using OpenFrameworks. The host displayed using face substituion technology in realtime.</p>
+
+<h3>Motivation</h3>
+
+<p>Our motivation to develop this project was the following:
+<ul><li>Do something fun with sensors and Arduino, that would show people how easy it is to use these things.</li>
+<li>Showcase applications of recent Face Tracking and Face Substitution technology.</li>
+<li>Do a presentation format that would not leave anyone indifferent to our project.</li>
+<li>Bring attention to the creative community we have in the Audiência Zero hacker spaces in Portugal (<a href="http://lcd.guimaraes2012.pt/">LCD in Porto / Guimarães</a>, <a href="http://xdatelier.org">xDA in Coimbra</a>, <a href="http://altlab.org">altLab in Lisbon</a>), in hopes of getting new members.</li>
+<li>Take home some new hardware.</li>
+</ul>
+
+<h1>Video of Presentation</h1>
+
+<iframe src="http://player.vimeo.com/video/32030833?title=0&amp;byline=0&amp;portrait=0" width="400" height="225" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe><p><a href="http://vimeo.com/32030833">Nuclear Tacos Sensor Helmet Gameshow @Codebits 2011</a> from <a href="http://vimeo.com/altlab">altlab Lisbon&#039;s Hackerspace</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+
+<h1>Before Codebits</h1>
+
+<h3>Concept</h3>
+
+<p>At Sapo Codebits 2010 the event organizers held a nuclear taco challenge during one of the nights of the event. Many brave attendees spent their last day of the event in severe discomfort, cursing their idealized bravery. No members of our team were brave enough to take on the nuclear taco challenge but the memories of everyone else suffering lingered on with us. Then one day a lightbulb was turned on inside <a href="http://twitter.com/ledsandchips">Mauricio Martins</a>'s head when he saw a tv comercial for TMN featuring Ricardo Araujo and an "all American" beer helmet.</p>
+
+<p>The idea Mauricio had awaken inside his head was to use his Arduino and sensors expertise to pimp that beer helmet into a nuclear taco sensor device of some sort. He began looking for the pieces required.</p>
+
+<p>By the way, if you want to learn how to use Arduinos for random projects, there are <a href="http://altlab.org/events/#WASUN">some workshops at altLab</a> on a regular basis.</p>
+
+<h3>Hardware</h3>
+
+<p>The helmet itself was quite hard to find for sale in Portugal. After many searches on the internet, we ended up buying it at <a href="http://epia.com.pt/">epia.com</a> for 10 euros.</p>
+
+<p>The Arduino, LEDs, temperature and humidity sensor were easily acquired anywhere online. The flow measurement sensor was alot harder to find, we ended up buying it second hand from ebay.</p>
+
+<p>The webcam for the head mounted view used was a Microsoft LifeCam VX-2000 bought by 20 euros.</p>
+
+<p>Overall the hardware cost was around 60 euros.</p>
+
+<h3>Brainstorm</h3>
+
+<p>While Mauricio was searching for the helmet he recruited two new members for our team. To assist with the hardware the Luso - New Zealandinsh <a href="http://twitter.com/tiagororke">Tiago Rorke</a>, a semi-regular altLab attender. And to handle the presentation format, the Portuguese demoscener emigrated in Helsinki, Finland <a href="http://tpolm.org/~ps">Filipe Cruz</a>, who had already collaborated with Mauricio on a Codebits project in 2010 (the Blind Pong project).</p>
+
+<p>A couple of weeks before the event, Mauricio and Tiago Rorke got together to write a first abstract description of the project, do some sketches of the idealized helmet and sent the text to Filipe. Few days later the three of them had a skype call to define the presentation format and hear Filipe explain his concept idea of having a japanese gameshow style of presenting the project to the public.</p>
+
+<p>A couple days before the event the three members of the team finally managed to get together physically to discuss the project in person. Taking the oportunity to test some components (the sensors, the FaceTracking library by <a href="https://github.com/arturoc/FaceSubstitution">Arturo Castro</a>, <a href="https://github.com/kylemcdonald/ofxFaceTracker">Kyle McDonald</a> and <a href="http://web.mac.com/jsaragih/FaceTracker/FaceTracker.html">Jason Saragih</a>) and more importantly: to decide on a final name for the project. <b>Nuclear Taco Sensor Helmet Gameshow</b> was the decision.</p>
+
+<h1>During Codebits</h1>
+
+<h3>Thursday</h3>
+
+<p>Mauricio and Tiago Rorke spent the day working on the helmet, mostly building and testing the sensors with the Arduino and deciding on how they would be placed on the helmet. Ferdinand Meier, a resident member of altLab was recruited to help printing small pieces for the helmet with the <a href="http://www.makerbot.com/">Makerbot</a>.</p>
+
+<p>Filipe arrived late and started working imediatly on the framework for the presentation using <a href="http://openframeworks.cc">OpenFrameworks</a>, mostly testing background effects in a Japanese swish swash style and trying to close the presentation storyboard. Ferdinand who was already a new member of the project at this point offered his <a href="http://www.blender.org/">Blender</a> skills to create a model of the helmet in 3D to be used in the presentation.</p>
+
+<p>While the hardware guys were struggling with the sensors, Filipe was testing ofx3DModelLoader with Ferdinand's 3D model exports of the helmet. Several 2D renders of Japanese virtual idol Hatsune Miku modelling our helmet were also taken. The open source 3D model of Miku was taken from <a href="http://www.blendernation.com/2008/12/17/hatsune-miku-rigged-blender-character-available/">blendernation</a>. We had to rush this process since Ferd had to leave the Codebits event that night to attend a conference in Porto.</p>
+
+<p>We did not attend the Elevator Pitch talk.</p>
+
+<p><a href="http://twitter.com/xernobyl">Tiago Farto</a> was recruited to help with the graphic effects of the presentation. The background effects you see are all running on pixelshaders realtime under openframeworks. It was not trivial to get the shaders setUniform to handle textures properly under openFrameworks. We spent quite a few hours debugging and wild guessing their framework since neither Filipe nor Tiago had experience running shaders on openFrameworks.</p>
+
+<p>During the night we were one of the few teams still left hard at work at the partyplace at 3 am. Mauricio and Tiago Rorke finishing the helmet - testing the liquid flow sensor, building the servos, gluing the led structures, painting the helmet.</p>
+
+<h3>Friday</h3>
+
+<p>We didn't manage to sleep much on the first night of the event, some of us were falling asleep on our computers while still trying to get some work done. We started having to turn down folks who were coming to ask us to print random things on the makerbot. We sadly had to do this because we were so busy finishing the project for the competition. The helmet needed to be finished and ready for the codebits nuclear taco challenge which was happening at 19:00.</p>
+
+<p>Mauricio and Tiago finished the helmet, attached the head camera and went to the Taco Challenge area to record some footage. Tiago worked on the title screen flames effect while Filipe re-structured the framework and tested the video playback right before having to head out to give <a href="http://videos.sapo.pt/eItVo2r11zD9tvUuFwJk">his speaker talk "Crash course on Phonegap + Sencha Touch"</a>.</p>
+
+<p>Mauricio and both Tiagos went to the taco lounge and managed to record footage from 6 volunteers wearing our helmet while eating their nuclear tacos. Big thanks to Pedro Umbelino, Daniel Freitas, Pedro Silva, Tomé Duarte, Joana Ferreira and Artur Goulão for their assistance! We ended up only using 4 of the 6 videos.</p>
+
+<p>Meanwhile, back at the altLab table Filipe had ended his speaker talk and was back to work on the presentation code with some interruptions to try and find out where the confessionary room where we were supposed to present our project 1 hour ago was located. He failed. Notified Mauricio and decided to attend the speakers dinner instead.</p>
+
+<!--<p><img width="500px" src="photos_mauricio/2011-11-11 19.09.45.jpg"/></p>-->
+
+<p>Upon return, Filipe managed to find where the confessionary room was located while the rest of the project folks attended the Scorpions concert. We finally managed to get skype interviewed by chewbacca and darth vader. It went rather well and we were hopeful that our project would get selected for the group A of projects presenting live on stage.</p>
+
+<p>The rest of the night was spent editing video and finding the perfect Japanese face to use on the FaceTracking part of the presentation. Shido Nakamura was the final selection. Filipe had some nightmares about forgetting what to say live on stage and screwing up the Japanese accent. Tiago Rorke ended up working another all nighter doing some video editing and drawing a 2d taco for the presentation.</p>
+
+<p>By the way, the music we used for the final part is <a href="http://www.newgrounds.com/audio/listen/245921">ParagonX9 - Chaoz Airflow</a>, available under a Creative Commons by-nc-sa license. And the short clip of Japanese crowd cheering was snipped from a random youtube video of a random Japanese gameshow which we can't find anymore.</p>
+
+<h3>Saturday</h3>
+
+<p>We all woke up later then planned and feeling somewhat sick and tired of working on the project. But one final effort was still needed, the presentation had to be perfect!</p>
+
+<p>We did a few iterations of the final challenge video, adding sound effects and testing the length. The storyboard still suffered a few small changes to create bigger crescendo impact. Last minute overlay graphics of the sensors were designed by Tiago Farto and quickly inserted.</p>
+
+<p>Test on the stage proved the facetracking could work without additional lighting. Everything seemed more or less ready. Just one more render of the final video with some more small important changes required.</p>
+
+<p>Presentation had some glitches but went rather well. The crowd managed to get into it and that was reflected heavily on the voting. Great positive reactions both in person and through the twitter feed. We were very pleased and looking forward to the prize giving. Tiago Farto had to leave early and Ferd never managed to come back to Codebits since Thursday, so we were left only 3 of us, Mauricio Martins, Filipe Cruz and Tiago Rorke to collect the prizes!</p>
+
+<p>We won the 1st place public award and offered the sensor helmet device to the Codebits organizers informing them that all the people involved with organizing the Nuclear Taco Challenge had to take pictures of themselfs wearing the helmet and upload them to the internet.</p>
+
+<h1>Conclusions</h1>
+
+<p>Domo Arigato to everyone for your feedback and support. We are very happy you liked our project. Please come and join <a href="http://altlab.org">altLab</a> or another <a href="http://audienciazero.org/">Audiencia Zero</a> hacklab closer to you. We need more people sharing knowledge and doing things with technology.</p>
+
+<h1>Source Code</h1>
+
+<p>Source code <a href="https://github.com/psenough/Nuclear-Taco-Sensor-Helmet-Gameshow">github repo</a>.</p>
+
+<h1>Support</h1>
+
+<p>If you liked our project, please flattr it to support our hacker space labs.</p>
+
+<p><a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="http://tpolm.org/~ps/codebits5/taco.html"></a>
+<noscript><a href="http://flattr.com/thing/435967/Nuclear-Taco-Sensor-Helmet-Gameshow" target="_blank">
+<img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript></p>
+
+</body>
+</html>
